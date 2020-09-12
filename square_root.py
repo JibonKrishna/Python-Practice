@@ -4,7 +4,7 @@ Created on Thu Sep 10 23:03:05 2020
 
 @author: jibon_k
 """
-# find square root of a number by bisection search.
+# finding square root of a number by bisection search.
 
 x = int(input("Enter the number: "))
 low = 0
