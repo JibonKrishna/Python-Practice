@@ -24,5 +24,5 @@ while abs((ans**3) - abs(x)) > 0.01:
         high = ans
     else:
         low = ans
-print(f"Cube root of {x} is {ans}.)
+print(f"Cube root of {x} is {ans}.")
 print(f"It took {num_guesses} guesses.")
