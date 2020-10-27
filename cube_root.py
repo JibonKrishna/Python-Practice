@@ -6,7 +6,7 @@ Created on Tuesday, October 27, 2020
 
 
 # cube root of positive number using bisection search
-x = float(input("enter a number: "))
+x = float(input("Enter a positive number: "))
 num_guesses = 0
 ans = 0
 high = 0
@@ -24,5 +24,5 @@ while abs((ans**3) - abs(x)) > 0.01:
         high = ans
     else:
         low = ans
-print(ans)
-print(num_guesses)
+print(f"Cube root of {x} is {ans}.)
+print(f"It took {num_guesses} guesses.")
