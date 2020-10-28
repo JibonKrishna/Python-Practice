@@ -19,4 +19,4 @@ def sumDigits(s):
 
 
 x = str(input("Enter a string: "))
-print(f"Sum of the decimal digits in your input:", sumDigits(x))
+print("Sum of the decimal digits in your input:", sumDigits(x))
