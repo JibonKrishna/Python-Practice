@@ -7,12 +7,13 @@ Created on Thursday, October 29, 2020
 
 def largest(s):
     """Takes sequence of numbers separated by comma as input and returns
-    the largest number. If the input is "1.2,1,5,2,4,5.2,1,5", it will 
-    return 5.2
+    the largest number.
+    If the input is "1.2,1,5,2,4,5.2,1,5", it will return 5.2
 
     Args:
         s (str): A sequence of number separated by comma.
     """
+    
     x = s.split(",")
     largest = 0
     i = 0
