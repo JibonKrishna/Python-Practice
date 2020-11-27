@@ -4,7 +4,7 @@ Created on Friday, November 27, 2020
 @author: Jibon_Krishna
 """
 
-
+# Takes a string as input and prints the number of vowels in the input string.
 string = str(input("Input a string: ").lower())
 count = 0
 vowel = ['a', 'e', 'i', 'o', 'u']
