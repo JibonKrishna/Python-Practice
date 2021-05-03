@@ -5,9 +5,10 @@ Created on Tuesday, October 27, 2020
 """
 
 
-# cube root of a positive number using bisection search. x > 0
+# cube root of a positive number using bisection search.
+# assumes x is positive
 
-x = float(input("Enter a positive number: ")) 
+x = float(input("Enter a positive number: "))
 num_guesses = 0
 ans = 0
 high = 0
